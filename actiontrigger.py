@@ -11,7 +11,7 @@ import time
 from uuid import uuid4
 
 logger_name = 's3cmdtest'
-s3_cmd_config_path = '.s3cfg-whitney-user-neel'
+s3_cmd_config_path = <configfilepath>
 pass_tests = []
 fail_tests = []
 time_out_counter = []
