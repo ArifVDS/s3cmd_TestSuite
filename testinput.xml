@@ -1,0 +1,48 @@
+<testcases shelf="basic">
+<case title="create_bucket">
+   <num>1</num>
+   <syntax>s3cmd s3://(bucketname)</syntax>
+</case>
+<case title="list_bucket">
+   <num>2</num>
+   <syntax>s3cmd ls</syntax>
+</case>
+<case title="list_bucket_contents">
+   <num>3</num>
+   <syntax>s3cmd ls s3://(bucketname)</syntax>
+</case>
+<case title="put_get_delete">
+   <num>4</num>
+   <syntax>s3cmd put s3://(bucketname)</syntax>
+</case>
+<!--
+<case title="multipart_IO">
+   <num>5</num>
+   <syntax>s3cmd -multipart-chunk-size-mb=500 put s3://(bucketname)</syntax>
+</case>
+<case title="overwrite_object">
+   <num>6</num>
+   <syntax>s3cmd put -force (object_new) s3://(bucketname)/(objcet_old)</syntax>
+</case>
+<case title="copy_object_instance">
+   <num>7</num>
+   <syntax>s3cmd cp s3://(bucketname)/(objcet_old) s3://(new_bucketname)/(objcet_old)</syntax>
+</case>
+<case title="move_object_instance">
+   <num>8</num>
+   <syntax>s3cmd mv s3://(bucketname)/(objcet_old) s3://(new_bucketname)/(objcet_old) </syntax>
+</case>
+<case title="list_all_objects_buckets">
+   <num>9</num>
+   <syntax>s3cmd la</syntax>
+</case>
+<case title="multipart_random_IO">
+   <num>10</num>
+   <syntax>s3cmd -multipart-chunk-size-mb=500 put s3://(bucketname)</syntax>
+</case>
+<case title="multipart_random_IO_input_parts">
+   <num>11</num>
+   <syntax>s3cmd -multipart-chunk-size-mb=500 put s3://(bucketname)</syntax>
+</case> -->
+</testcases>
+
